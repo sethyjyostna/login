@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container{
+  max-width: 428px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 45px 27px 58px;
+}
+.react_logo{
+  width: 198px;
+  height: 198px;
+  margin: 0 auto;
+}
+.react_logo img{
+  width: 100%;
+  height: 100%;
+}
+.random_text{
+  font-size: 14px;
+  line-height: 18px;
+  color: #000;
+  text-align: center;
+  margin-bottom: 52px;
+  font-family: 'Roboto', sans-serif;
+  padding: 0 5px;
+}
+.logi_singup_btn{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 44px;
+}
+.logi_singup_btn a{
+  flex: 50%;
+  text-align: center;
+  font-size: 16px;
+  line-height: 20px;
+  color: #000;
+  text-decoration: none;
+  padding-bottom: 10px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.logi_singup_btn a.active{
+  font-weight: bold;
+  border-bottom: 3px solid #E70B89;
+}
+.input_filds{
+  max-width: 300px;
+  margin: 0 auto;
+}
+.input_filds input{
+width: 100%;
+border: 1px solid #000;
+border-radius: 20px;
+padding: 15px 25px;
+font-size: 16px;
+line-height: 17px;
+color: #1A1A1A;
+margin-bottom: 26px;
+outline: none;
+}
+.input_filds input:focus-visible{
+  border: 1px solid #3585ff;
+}
+
+.login_btn {
+  width: 100%;
+  border-radius: 26px;
+  border: none;
+  padding: 15px;
+  font-size: 16px;
+  line-height: 17px;
+  text-transform: uppercase;
+  font-weight: bold;
+  background: #E70B89;
+  color: #fff;
+  cursor: pointer;
+  margin-bottom: 15px;
+  font-family: 'Roboto', sans-serif;
+}
+.login_btn:hover{
+  background-color: #cb0677;
+}
+
+.Forgot-Password {
+  text-align: right;
+  display: block;
+  text-decoration: none;
+  color: #E70B89;
+  margin-bottom: 23px;
+  font-family: 'Roboto', sans-serif;
+  padding-right: 30px;
+}
+.Forgot-Password:hover {
+  color: #cb0677;;
+}
+.login_social_wapper strong{
+font-size: 12px;
+line-height: 17px;
+color: #9D9D9D;
+display: block;
+text-align: center;
+margin-bottom: 21px;
+font-family: 'Roboto', sans-serif;
+font-weight: normal;
+}
+.login_social {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 23px;
+}
+.login_social a img{
+  width: 22px;
+}
+.login_social a {
+  padding: 12px 14px;
+  border: 1px solid #E6E6E6;
+  border-radius: 50%;
+  margin:0 25px;
+}
+.dont_have_account p{
+  font-size: 12px;
+  line-height: 17px;
+  color: #1A1A1A;
+  text-align: center;
+margin-bottom: 24px;
+font-family: 'Roboto', sans-serif;
+}
+.dont_have_account a{
+color: #E70B89;
+text-decoration: none;
+}
+
+@media screen and (min-width:768px) {
+  .random_text {
+    padding: 0 30px;
+}
+}
